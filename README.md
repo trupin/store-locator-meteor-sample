@@ -10,7 +10,7 @@ This is a sample project which demonstrates how to implement a reactive store lo
 
 # Or just have look at it...
 
-[here](http://mobeyesample.meteor.com)
+[here](http://store-locator-sample.meteor.com)
 
 # Resources
 
