@@ -14,17 +14,17 @@ This is a sample project which demonstrates how to implement a reactive store lo
 
 # Implementation
 
-When the user clicks on the import button, the stores locations are fetched from Gmaps and stored in a MongoDb collection with a 2d index on the server side.
+When the user clicks on the import button, the stores locations are fetched from Gmaps and stored in a MongoDb collection with a `2d` index on the server side.
 The client side observes this collection to reactively put the markers in the map. That way, as soon the collection is populated, the markers are shown in the map.
 
-When the user selects some stores and clicks on export, the server performs a $near request on the 2d index to locate the selected stores in the circle, and return the csv formatted data.
+When the user selects some stores and clicks on export, the server performs a `$near` request on the `2d` index to locate the selected stores in the circle, and return the csv formatted data.
 
 # Resources
 
 Server side:
 * The [node-googlemaps](https://github.com/moshen/node-googlemaps) module to request the stores locations.
 * The [node-csv](https://github.com/wdavidw/node-csv) module to convert the the stores locations to csv.
-* The $near request I used to get the selected stores is inspired of [this documentation from MongoDb](http://docs.mongodb.org/manual/reference/operator/query/near/).
+* The `$near` request I used to get the selected stores is inspired of [this documentation from MongoDb](http://docs.mongodb.org/manual/reference/operator/query/near/).
 
 Client side:
 * The [meteorhacks:npm](https://github.com/meteorhacks/npm) package to be able to use Node modules directly from Meteor
