@@ -1,0 +1,16 @@
+<head>
+    <title>Mobeye sample</title>
+</head>
+
+<body>
+    <button id="export-button">Export stores</button>
+    <button id="import-button">Import stores from gmaps</button>
+
+    {{> map}}
+</body>
+
+<template name="map">
+    <div class="map-container">
+        {{> googleMap name="map" options=mapOptions}}
+    </div>
+</template>
