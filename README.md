@@ -15,7 +15,7 @@ This is a sample project which demonstrates how to implement a reactive store lo
 # Implementation
 
 When the user clicks on the import button, the stores locations are fetched from Gmaps and stored in a MongoDb collection with a `2d` index on the server side.
-The client side observes this collection to reactively put the markers in the map. That way, as soon the collection is populated, the markers are shown in the map.
+The client side observes this collection to reactively put the markers in the map. That way, the moment the collection is populated, the markers are shown in the map.
 
 When the user selects some stores and clicks on export, the server performs a `$near` request on the `2d` index to locate the selected stores in the circle, and return the csv formatted data.
 
