@@ -15,7 +15,7 @@ This is a sample project which demonstrates how to implement a reactive store lo
 # Resources
 
 Server side:
-* The [node-googlemaps](https://github.com/moshen/node-googlemaps) module to request the stores locations from the server side.
+* The [node-googlemaps](https://github.com/moshen/node-googlemaps) module to request the stores locations.
 * The [node-csv](https://github.com/wdavidw/node-csv) module to convert the the stores locations to csv.
 
 Client side:
