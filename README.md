@@ -22,12 +22,12 @@ When the user selects some stores and clicks on export, the server performs a `$
 # Resources
 
 Server side:
+* The [meteorhacks:npm](https://github.com/meteorhacks/npm) package to be able to use Node modules directly from Meteor
 * The [node-googlemaps](https://github.com/moshen/node-googlemaps) module to request the stores locations.
 * The [node-csv](https://github.com/wdavidw/node-csv) module to convert the the stores locations to csv.
 * The `$near` request I used to get the selected stores is inspired of [this documentation from MongoDb](http://docs.mongodb.org/manual/reference/operator/query/near/).
 
 Client side:
-* The [meteorhacks:npm](https://github.com/meteorhacks/npm) package to be able to use Node modules directly from Meteor
 * The [meteor-google-maps](https://github.com/dburles/meteor-google-maps) package to be able to use the Google Maps API v3 on the client side (basically, to show a map, the markers and an editable circle).
 * The `DistanceWidget` is the MVC Object I used to draw an editable circle on the map. It is highly inspired of [this documentation from Google](https://developers.google.com/maps/articles/mvcfun)
 
