@@ -13,3 +13,7 @@ You need have Meteor installed.
 # Or just have look at it...
 
 [here](http://mobeyesample.meteor.com)
+
+# Resources
+
+The `DistanceWidget` is the MVC Object I used to draw an editable circle on the map. It is highly inspired of [this documentation from Google](https://developers.google.com/maps/articles/mvcfun)
