@@ -6,9 +6,9 @@ This is a sample project which demonstrates how to implement a reactive store lo
 
 You need have Meteor installed.
 
-  $ git pull git@github.com:trupin/mobeye-sample.git
-  $ meteor
-  $ open http://localhost:3000
+    $ git pull git@github.com:trupin/mobeye-sample.git
+    $ meteor
+    $ open http://localhost:3000
 
 # Or just have look at it...
 
